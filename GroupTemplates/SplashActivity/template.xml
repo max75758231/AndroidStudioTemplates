@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<template
+    format="4"
+    revision="1"
+    name="Splash Activity Template"
+    description="Creates a SplashActivity with a timer and an App class.">
+
+    <category value="Other" />
+
+    <parameter
+        id="time"
+        name="Time in millis"
+        type="integer"
+        default="3000"
+        help="This time will be used for a SplashActivity delay" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
