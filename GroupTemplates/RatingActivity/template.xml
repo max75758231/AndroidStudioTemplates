@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<template
+    format="4"
+    revision="1"
+    name="Rating Activity Template"
+    description="Creates a RatingActivity with a layout">
+
+    <category value="Other" />
+
+    <parameter 
+        id="isLibrary" 
+        name="Use library" 
+        type="boolean" 
+        default="false"  
+        help="If true, this activity will have a rating bar from library"/>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
