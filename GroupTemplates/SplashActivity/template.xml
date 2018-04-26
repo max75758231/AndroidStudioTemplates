@@ -10,9 +10,16 @@
     <parameter
         id="time"
         name="Time in millis"
-        type="integer"
+        type="string"
         default="3000"
         help="This time will be used for a SplashActivity delay" />
+
+    <parameter
+        id="targetClass"
+        name="Target class intent to"
+        type="string"
+        default="MainActivity"
+        help="This class will be use to paste in the Intent object" />    
 
     <globals file="globals.xml.ftl" />
     <execute file="recipe.xml.ftl" />
