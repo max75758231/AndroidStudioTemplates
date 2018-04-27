@@ -8,8 +8,8 @@ File templates path:
 
 Group of file templates path (my path example):
 
-    C:\Program Files\Android\android-studio\plugins\android\lib\templates
+    {$android-studio-path}\plugins\android\lib\templates
     
 ## Templates usage
 
-<img src="https://image.ibb.co/jVwOgx/image.png" alt="Usage tutorial"/>
+<img src="https://image.ibb.co/jVwOgx/image.png" alt="Usage tutorial" width="330" height="400"/>
