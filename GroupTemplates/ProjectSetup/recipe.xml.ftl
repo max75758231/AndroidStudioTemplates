@@ -2,5 +2,4 @@
 <recipe>
 	<merge from="build.gradle.ftl"
              to="${escapeXmlAttribute(projectOut)}/build.gradle" />
-
 </recipe>

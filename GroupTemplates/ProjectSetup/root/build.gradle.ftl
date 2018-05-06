@@ -6,6 +6,6 @@ android {
 }
 
 dependencies {
-	implementation 'com.jakewharton:butterknife:8.6.0'
-	annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+	implementation 'com.jakewharton:butterknife:8.8.1'
+	annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }
